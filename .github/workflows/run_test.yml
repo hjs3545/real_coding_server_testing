@@ -9,6 +9,8 @@ name: Deployment
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["homework/testing"]
   pull_request:
     branches: [ "main" ]
 
